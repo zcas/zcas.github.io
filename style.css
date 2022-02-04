@@ -1,0 +1,45 @@
+body{
+	background: black;
+}
+#banner{
+	display: block;
+	margin:auto;
+	width: 100%;
+	max-width: 1200px;
+	height: 400px;
+}
+ul {
+	display: block;
+	margin:auto;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+li {
+	color: red;
+}
+
+li a {
+	float: left;
+	display: block;
+	color: #DF0101;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a.test {
+	float: right;
+	color :green;
+}
+li a:hover {
+	background-color: #DF0101;
+	color: #000;
+}
+
+p {
+	color:red;
+}
